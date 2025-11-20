@@ -14,8 +14,8 @@ jobs:
     env:
       IMAGE_NAME: todo-get-tasks-api
       IMAGE_TAG: v1
-      ACR_NAME: devopsinsidersacr235
-      ACR_LOGIN_SERVER: devopsinsidersacr235.azurecr.io
+      ACR_NAME: yacrdevtodoapp01
+      ACR_LOGIN_SERVER: yacrdevtodoapp01.azurecr.io
 
     steps:
       - name: Checkout code
